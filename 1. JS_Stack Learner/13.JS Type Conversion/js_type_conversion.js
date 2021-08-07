@@ -19,7 +19,10 @@ console.log(number.toString());     //Number to String convertion.
 console.log(Number(Infinity)); 
 
 
+var x = true;
+console.log(x.toString());    //Boolean to String convertion.
 
+console.log(true);
 
 
 //Falsy values
@@ -42,7 +45,12 @@ console.log(Number(Infinity));
 
 
 
- var x = true;
-console.log(x.toString());
 
-console.log(true);
+//If you want write Hexadecimal Numbers then you need start with "0x" then any number.
+ var hex = 0xa;        //Hexadecimal Numbers to Decimal convert.
+ console.log(hex);
+
+
+//  If you want write  Octal Numbers the you need start "0" then any number.
+var oct = 036;        // Octal Numbers to Decimal convert.
+console.log(oct);
