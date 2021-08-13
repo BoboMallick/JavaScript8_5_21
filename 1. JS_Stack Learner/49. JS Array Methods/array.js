@@ -22,3 +22,11 @@
 // array2[3] = 1;
 // console.log(array)
 // console.log(array2)
+
+
+var a = [1, 2]
+
+var b = Array.from(a)
+b[0] = 5
+console.log(a)
+console.log(b)
